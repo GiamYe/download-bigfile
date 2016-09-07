@@ -1,0 +1,6 @@
+downloadbigfile:
+   build: /home/zhan/Code/DaoCloud/download-bigfile
+   volumes:
+   - /home/zhan/data:/data
+   environment:
+    DownloadPath: "http://mirrors.163.com/ubuntu-releases/15.04/ubuntu-15.04-desktop-amd64.iso"
